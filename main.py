@@ -61,7 +61,7 @@ Workspace Stats:
 |      File types: txt(1)
 |      Conf files:"""
 
-MARKDOWN_ANSWER = """# Weekly Step Analysis
+MARKDOWN_ANSWER = r"""# Weekly Step Analysis
 
 This document provides an analysis of the number of steps walked each day over a week, comparing personal performance with friends. The goal is to understand trends in physical activity and motivate improvements.
 
@@ -130,9 +130,9 @@ plt.ylabel('Steps Taken')
 plt.grid()
 plt.show()"""
 
-COMPRESSED_IMAGE_URI = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAyAAAAJYBAMAAABoWJ9DAAAAD1BMVEUAAAD//wAA/wD/AAAAAP+MoUflAAAAAXRSTlMAQObYZgAABR5JREFUeNrt3dFtJEcWRNGqtGDDg8WzYIFxQB/rv03LHUiQvlo5M6QYxTzHhYt41QDZXRcAAAAAAAAAAAAAAAAAAAAAAAAAX863f8B/rnew5k/XF/aIIGt+d0CU/iBrvjulSXuQeenf15fTHWTeHJakOciavzjlcBUHme9OG0ltkDXfHTeS1iDz3YEjKQ0yc2qRyiBrfnfg2WoMsmbOLVIYZM0cXKQvyJo5uUhdkDVzdJG6IPMXJ37Wagsyc3iRsiAzpxfpCrLmu5MfI1VB1szxRaqCzJvTj1ZTkBlFmoKseXP80SoKMmMiTUHWjIkUBVkzijQFmTeOVk+QNWMiTUFmTKQpyJoxkaYgMybSFGTNmEhTkBkTaQqyZkykKciMiTQFWTMmIkiphiAzblZTkDVjIk1BZkxEkFqfH2TNuFlNQWZMRJBenx5kzbhZTUFmTESQYp8dZM24WYIU++wgM26WIM0+OciacbMEafbJQWbcLEGqCbLthCBrxkNEkGqCbDshyIyHiCDdBNkmiCD/dJA146kuSDdBtgkiiCCvHBBkxscsQcoJsk0QQQR5RRBBBHlFEEEEeUUQQQR5RRBBBHlFEEEEeeWAIP4eIkg9QbYJIoggrxwQxH8uClJPkG2CCOIbVK8IIoggr5wQxPfUBWknyLYjgvg1IEHKfXvjF+W2CCKIXyV9RRBB/LL1K4II4u0IrxwSxPtDBKn27Q/eQfV3TgniLW2CNPv2J2/6fO2YIN6F623RxQTZdk6Qy8UqC7IMpCvIZSBlQZaBdAW5DKQsyDKQriCXgZQFWQbSFeQykLIgy0C6glxLj64gl4NVFmQZSFeQy0DKglx6lAVZxx+ssiDXOr5HWZDr9INVF+Q6vUddkOvwHn1B1skPkMYg1zq6R2GQa53cozHItQ7uURnkWuf26AxyXSd+vqoOcp3aozbItQ48V9VBruvAeXQHudZx8ygPcl2nzaM+yHUdlqM/yHWtU47VU4K8WafUeEqQ/1sHxAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAL+O/fKDfBNklyJEE2SbIkX67AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAH+NdFkzsXTRITaXInJtIkMZEmd2IiTRITaXInJtIkMZEmd2IiTRITaXInJtIkMZEmd2IiTRITaXInJtIkMZEmd2IiTRITaXInJtIkMZEmd2IiTRITaXInJtIkMZEmd2IiTRITaXInJtIkMZEmd2IiTRITaXInJtIkMZEmd2IiTRITaXInJtIkMZEmd2IiTRITaXInJtIkMZEmd2IiTRITaXInJtIkMZEmd2IiTRITaXInJtIkMZEmd2IiTRIT2dU5EBP5UImJ7GodiIl8oMREdvUOxEQ+TGIiu5oHYiIfJDGRXd0DMZEPkZjIrvaBmMgHSExkV/9ATOTdJSay6wkDMZF3lpjIrmcMxETeVWIiu54yEBN5R4mJ7HrOQEzk3SQmsutJAzGRd5KYyK5nDcRE3kViIrueNhATeQeJiex63kBM5JclJrLriQMxkV+UmMiuZw7ERH5JYiK7njoQE/kFiYnseu5ATOSnJSay68kDMZGflJjIrmcPxER+SmIiu54+EBP5CYmJ7Hr+QEzkhyUmsusrDMREflBiIru+xkBM5IckJgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwBf1PzmiMPytKVoJAAAAAElFTkSuQmCC"
+COMPRESSED_IMAGE_URI = r"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAyAAAAJYBAMAAABoWJ9DAAAAD1BMVEUAAAD//wAA/wD/AAAAAP+MoUflAAAAAXRSTlMAQObYZgAABR5JREFUeNrt3dFtJEcWRNGqtGDDg8WzYIFxQB/rv03LHUiQvlo5M6QYxTzHhYt41QDZXRcAAAAAAAAAAAAAAAAAAAAAAAAAX863f8B/rnew5k/XF/aIIGt+d0CU/iBrvjulSXuQeenf15fTHWTeHJakOciavzjlcBUHme9OG0ltkDXfHTeS1iDz3YEjKQ0yc2qRyiBrfnfg2WoMsmbOLVIYZM0cXKQvyJo5uUhdkDVzdJG6IPMXJ37Wagsyc3iRsiAzpxfpCrLmu5MfI1VB1szxRaqCzJvTj1ZTkBlFmoKseXP80SoKMmMiTUHWjIkUBVkzijQFmTeOVk+QNWMiTUFmTKQpyJoxkaYgMybSFGTNmEhTkBkTaQqyZkykKciMiTQFWTMmIkiphiAzblZTkDVjIk1BZkxEkFqfH2TNuFlNQWZMRJBenx5kzbhZTUFmTESQYp8dZM24WYIU++wgM26WIM0+OciacbMEafbJQWbcLEGqCbLthCBrxkNEkGqCbDshyIyHiCDdBNkmiCD/dJA146kuSDdBtgkiiCCvHBBkxscsQcoJsk0QQQR5RRBBBHlFEEEEeUUQQQR5RRBBBHlFEEEEeeWAIP4eIkg9QbYJIoggrxwQxH8uClJPkG2CCOIbVK8IIoggr5wQxPfUBWknyLYjgvg1IEHKfXvjF+W2CCKIXyV9RRBB/LL1K4II4u0IrxwSxPtDBKn27Q/eQfV3TgniLW2CNPv2J2/6fO2YIN6F623RxQTZdk6Qy8UqC7IMpCvIZSBlQZaBdAW5DKQsyDKQriCXgZQFWQbSFeQykLIgy0C6glxLj64gl4NVFmQZSFeQy0DKglx6lAVZxx+ssiDXOr5HWZDr9INVF+Q6vUddkOvwHn1B1skPkMYg1zq6R2GQa53cozHItQ7uURnkWuf26AxyXSd+vqoOcp3aozbItQ48V9VBruvAeXQHudZx8ygPcl2nzaM+yHUdlqM/yHWtU47VU4K8WafUeEqQ/1sHxAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAL+O/fKDfBNklyJEE2SbIkX67AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAH+NdFkzsXTRITaXInJtIkMZEmd2IiTRITaXInJtIkMZEmd2IiTRITaXInJtIkMZEmd2IiTRITaXInJtIkMZEmd2IiTRITaXInJtIkMZEmd2IiTRITaXInJtIkMZEmd2IiTRITaXInJtIkMZEmd2IiTRITaXInJtIkMZEmd2IiTRITaXInJtIkMZEmd2IiTRITaXInJtIkMZEmd2IiTRITaXInJtIkMZEmd2IiTRITaXInJtIkMZEmd2IiTRIT2dU5EBP5UImJ7GodiIl8oMREdvUOxEQ+TGIiu5oHYiIfJDGRXd0DMZEPkZjIrvaBmMgHSExkV/9ATOTdJSay6wkDMZF3lpjIrmcMxETeVWIiu54yEBN5R4mJ7HrOQEzk3SQmsutJAzGRd5KYyK5nDcRE3kViIrueNhATeQeJiex63kBM5JclJrLriQMxkV+UmMiuZw7ERH5JYiK7njoQE/kFiYnseu5ATOSnJSay68kDMZGflJjIrmcPxER+SmIiu54+EBP5CYmJ7Hr+QEzkhyUmsusrDMREflBiIru+xkBM5IckJgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwBf1PzmiMPytKVoJAAAAAElFTkSuQmCC"
 
-HTTPX_ANSWER = """import httpx
+HTTPX_ANSWER = r"""import httpx
 
 url = "https://api.openai.com/v1/chat/completions"
 headers = {
@@ -160,7 +160,7 @@ response = httpx.post(url, json=data, headers=headers)
 response.raise_for_status()
 print(response.json())"""
 
-BASE64_ANSWER = """{
+BASE64_ANSWER = r"""{
   "model": "gpt-4o-mini",
   "messages": [
     {
@@ -181,7 +181,7 @@ BASE64_ANSWER = """{
   ]
 }"""
 
-EMBEDDINGS_ANSWER = """import numpy
+EMBEDDINGS_ANSWER = r"""import numpy
 import itertools
 
 def most_similar(embeddings):
@@ -207,7 +207,7 @@ def most_similar(embeddings):
     
     return best_pair"""
 
-TRANSACTION_ANSWER = """{
+TRANSACTION_ANSWER = r"""{
   "model": "text-embedding-3-small",
   "input": [
     "Dear user, please verify your transaction code 62888 sent to 24f2000940@ds.study.iitm.ac.in",
@@ -215,7 +215,7 @@ TRANSACTION_ANSWER = """{
   ]
 }"""
 
-DUCKDB_ANSWER = """SELECT s.post_id
+DUCKDB_ANSWER = r"""SELECT s.post_id
 FROM social_media s,
      json_array_elements(s.comments) AS j
 WHERE 
@@ -224,7 +224,7 @@ WHERE
 GROUP BY s.post_id
 ORDER BY s.post_id ASC;"""
 
-TRANSCRIPT_ANSWER = """Codes and a secret society that manipulated fate from behind the scenes. Miranda listened, each revelation tightening the knots of suspicion around her mind. From within his worn coat, Victor produced a faded journal brimming with names, dates, and enigmatic symbols. Its contents mirrored Edmund's diary, strengthening the case for a conspiracy rooted in treachery. The journal hinted at a hidden vault beneath the manor where the secret society stored evidence of their manipulations.
+TRANSCRIPT_ANSWER = r"""Codes and a secret society that manipulated fate from behind the scenes. Miranda listened, each revelation tightening the knots of suspicion around her mind. From within his worn coat, Victor produced a faded journal brimming with names, dates, and enigmatic symbols. Its contents mirrored Edmund's diary, strengthening the case for a conspiracy rooted in treachery. The journal hinted at a hidden vault beneath the manor where the secret society stored evidence of their manipulations.
 
 Miranda's pulse quickened at the thought of unmasking those responsible for decades of deceit. Returning to the manor's main hall, Miranda retraced her steps with renewed resolve. Every shadow in the corridor now seemed charged with meaning. Each creek of wood, a prelude to further revelations. In the manor's basement, behind a concealed panel, Miranda discovered an iron door adorned with ancient symbols.
 
@@ -543,5 +543,4 @@ async def solve(
     return {"answer": answer}
 
 
-if __name__ == "__main__":
-    uvicorn.run(app, host="0.0.0.0", port=8000)
+
