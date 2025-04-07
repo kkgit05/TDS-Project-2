@@ -533,7 +533,7 @@ def solve_question(question):
     return "Question not recognized"
 
 
-@app.post("/")
+@app.post("/api/")
 async def solve(
     question: str = Form(...),
     file: UploadFile = File(None)
