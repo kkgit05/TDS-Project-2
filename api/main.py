@@ -8,7 +8,6 @@ from bs4 import BeautifulSoup
 from datetime import datetime, timedelta
 import hashlib
 import pandas as pd
-from mangum import Mangum
 
 app = FastAPI()
 
@@ -544,4 +543,3 @@ async def solve(
     return {"answer": answer}
 
 
-handler = Mangum(app)
